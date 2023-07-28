@@ -1,0 +1,72 @@
+#rebtn{
+    background-color:#cbba60;
+    border: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: cursive;
+    color:#cb455c;
+    font-size:15px;
+    font-weight: bold;
+}
+
+:root{
+    --win-block:#CB9942;
+    --draw-block:#3B54D5FF;
+}
+button:visited {
+    color: green;
+}
+
+/* mouse over link */
+button:hover {
+    color: red;
+}
+
+/* selected link */
+button:active {
+    color: yellow;
+}
+
+.box-container{
+    padding-top: 20px;
+    padding-left: 610px;
+}
+
+body{
+    font-family:cursive;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 90px 90px 90px;
+    grid-template-columns: 90px 90px 90px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.box {
+    background:#cbba60 ;
+    border: 1px solid #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#cb455c;
+    font-size:60px;
+    cursor: pointer;
+}
+
+h1{
+    padding-top: 20px;
+    padding-left: 498px;
+    font-size:50px;
+    color: #cb455c;
+}
+
+.whole{
+    padding-top: 20px;
+    padding-left: 530px;
+}
